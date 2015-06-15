@@ -1,0 +1,330 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+    display: block;
+}
+
+audio,
+canvas,
+video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+audio:not([controls]) {
+    display: none;
+}
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+sub,
+sup {
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+img {
+    width: auto\9;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+button,
+input,
+select,
+textarea {
+    margin: 0;
+    font-size: 100%;
+    vertical-align: middle;
+}
+
+button,
+input {
+    *overflow: visible;
+    line-height: normal;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+
+label,
+select,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="radio"],
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+input[type="search"] {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-appearance: textfield;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    line-height:1;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+ins {
+    text-decoration:none;
+}
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+hr {
+    display:block;
+    min-height:1px;
+    border:0;
+    padding:0;
+    margin: 0;
+}
+input, select {
+    vertical-align:middle;
+}
+.clearfix{*zoom:1}.clearfix:before,.clearfix:after{display:table;line-height:0;content:""}.clearfix:after{clear:both}
+ul{
+    list-style: none;
+}
+
+/*
+jalapeno Page Start*/
+
+.jalapenoBg{
+    background: url("../images/Jalapeno_bg.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    cursor: url("../images/tortilla-chip.png"), move ;
+    position: relative;
+    overflow: hidden;
+}
+.jalapenoBg .container > div{
+    position: absolute;
+}
+.blurChili01{
+    background: url("../images/chilli-blur-01.png") no-repeat center center;
+    width: 221px;
+    height: 140px;
+    background-size: contain;
+    left: 32%;
+    top: 0;
+}
+.blurChili02{
+    width: 286px;
+    height: 312px;
+    background: url("../images/chilli-blur-02.png") no-repeat center;
+    background-size: contain;
+    top: 34%;
+    left: 1%;
+}
+.blurChili03{
+    width: 301px;
+    height: 245px;
+    background: url("../images/chilli-blur-03.png") no-repeat center;
+    background-size: contain;
+    top: 31%;
+    right: 34%;
+}
+.blurChili04{
+    width: 187px;
+    height: 288px;
+    background: url("../images/chilli-blur-04.png") no-repeat center;
+    background-size: contain;
+    right: 0;
+    top: 16%;
+}
+.chili01{
+    width: 96px;
+    height: 56px;
+    background: url("../images/chilli-01.png") no-repeat center;
+    background-size: contain;
+    top: 9%;
+    left: 29%;
+}
+.chili02{
+    width: 154px;
+    height: 156px;
+    background: url("../images/chilli-02.png") no-repeat center;
+    background-size: contain;
+    top: 35%;
+    left: 23%;
+}
+.chili03{
+    width: 113px;
+    height: 79px;
+    background: url("../images/chilli-03.png") no-repeat center;
+    background-size: contain;
+    top: 70%;
+    left: 45%;
+}
+.chili04{
+    width: 111px;
+    height: 78px;
+    background: url("../images/chilli-04.png") no-repeat center;
+    background-size: contain;
+    top: 13%;
+    right: 6%;
+}
+.doubleChili{
+    width: 170px;
+    height: 139px;
+    background: url("../images/doubleChilli.png") no-repeat center;
+    background-size: contain;
+    bottom: 17%;
+    right: 14%;
+}
+.jalapenoHeading{
+    width: 533px;
+    height: 176px;
+    background: url("../images/Jalapeno-heading.png") no-repeat center;
+    background-size: contain;
+    top: 16%;
+    left: 9%;
+}
+.jalapenoTips1{
+    width: 447px;
+    height: 160px;
+    background: url("../images/Jalapeno_jhatka_tips.png") no-repeat center;
+    background-size: contain;
+    top: 36%;
+    left: 22%;
+    display: none;
+}
+.jalapenoTips2{
+    width: 497px;
+    height: 191px;
+    background: url("../images/Jalapeno_chunkySalsa_tips.png") no-repeat center;
+    background-size: contain;
+    top: 37%;
+    left: 24%;
+    display: none;
+}
+.jalapenoPouch{
+    width: 327px;
+    height: 429px;
+    background: url("../images/Jalapeno_pouch.png") no-repeat center;
+    background-size: contain;
+    top: 11%;
+    right: 16%;
+}
+.jalapenoHeadingShadow{
+    width: 691px;
+    height: 224px;
+    background: url("../images/Jalapeno-heading_shadow.png") no-repeat center;
+    background-size: contain;
+    top: 37%;
+    left: 10%;
+}
+.jalapenoPouchShadow{
+    width: 513px;
+    height: 205px;
+    background: url("../images/Jalapeno_pouch_shadow.png") no-repeat center;
+    background-size: contain;
+    bottom: 18%;
+    right: 13%;
+}
+.hide{
+    display: none;
+}
